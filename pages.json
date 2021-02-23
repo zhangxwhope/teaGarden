@@ -1,0 +1,96 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path" : "pages/storage/storage",
+      "style": {
+        "navigationBarTitleText": "云存储",
+        "enablePullDownRefresh": false
+      } 
+    },
+    {
+      "path" : "pages/cloudFunction/cloudFunction",
+      "style": {
+        "navigationBarTitleText": "云函数",
+        "enablePullDownRefresh": false
+      } 
+    },
+    {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+    {
+      "path" : "pages/webview/webview",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+       }         
+     }
+      ,{
+            "path" : "pages/clientDB/clientDB",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "前端操作数据库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/clientDB/clientDB-api/clientDB-api",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/schema2code/schema2code",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "schema2code",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/cloudFunction/cloudFunction",
+        "iconPath": "static/tabbar/fn.png",
+        "selectedIconPath": "static/tabbar/fn1.png",
+        "text": "云函数"
+      },
+      {
+        "pagePath": "pages/storage/storage",
+        "iconPath": "static/tabbar/storage.png",
+        "selectedIconPath": "static/tabbar/storage1.png",
+        "text": "云存储"
+      },
+      {
+        "pagePath": "pages/clientDB/clientDB",
+        "iconPath": "static/tabbar/yun.png",
+        "selectedIconPath": "static/tabbar/yun1.png",
+        "text": "clientDB"
+      },
+      {
+        "pagePath": "pages/schema2code/schema2code",
+        "iconPath": "/static/tabbar/st-code.png",
+        "selectedIconPath": "static/tabbar/st-code1.png",
+        "text": "schema2code"
+      }
+    ]
+  },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
