@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/storage/storage",
+    "pages/cloudFunction/cloudFunction",
+    "pages/index/index",
+    "pages/webview/webview",
+    "pages/clientDB/clientDB",
+    "pages/clientDB/clientDB-api/clientDB-api",
+    "pages/schema2code/schema2code"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/cloudFunction/cloudFunction",
+        "iconPath": "static/tabbar/fn.png",
+        "selectedIconPath": "static/tabbar/fn1.png",
+        "text": "云函数"
+      },
+      {
+        "pagePath": "pages/storage/storage",
+        "iconPath": "static/tabbar/storage.png",
+        "selectedIconPath": "static/tabbar/storage1.png",
+        "text": "云存储"
+      },
+      {
+        "pagePath": "pages/clientDB/clientDB",
+        "iconPath": "static/tabbar/yun.png",
+        "selectedIconPath": "static/tabbar/yun1.png",
+        "text": "clientDB"
+      },
+      {
+        "pagePath": "pages/schema2code/schema2code",
+        "iconPath": "/static/tabbar/st-code.png",
+        "selectedIconPath": "static/tabbar/st-code1.png",
+        "text": "schema2code"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
