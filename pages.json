@@ -1,43 +1,46 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
     {
-      "path" : "pages/storage/storage",
-      "style": {
-        "navigationBarTitleText": "云存储",
+      "path" : "pages/tabbar/home",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "首页",
         "enablePullDownRefresh": false
       } 
     },
     {
-      "path" : "pages/cloudFunction/cloudFunction",
-      "style": {
-        "navigationBarTitleText": "云函数",
+      "path" : "pages/tabbar/category",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "分类",
         "enablePullDownRefresh": false
-      } 
+      }    
     },
     {
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		},
+      "path" : "pages/tabbar/cart",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "购物车",
+        "enablePullDownRefresh": false
+      }    
+    },
+    {
+      "path" : "pages/tabbar/mine",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }    
+    },
     {
       "path" : "pages/webview/webview",
       "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
-       }         
-     }
+      }         
+    }
       ,{
-            "path" : "pages/clientDB/clientDB",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "前端操作数据库",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/clientDB/clientDB-api/clientDB-api",
+            "path" : "pages/tabbar/components/page-header",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
@@ -46,16 +49,7 @@
             
         }
         ,{
-            "path" : "pages/schema2code/schema2code",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "schema2code",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/home/home",
+            "path" : "pages/tabbar/components/banner",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
@@ -71,28 +65,28 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/cloudFunction/cloudFunction",
-        "iconPath": "static/tabbar/fn.png",
-        "selectedIconPath": "static/tabbar/fn1.png",
-        "text": "云函数"
+        "pagePath": "pages/tabbar/home",
+        "iconPath": "static/tabbar/tab-home.png",
+        "selectedIconPath": "static/tabbar/tab-home-current.png",
+        "text": "首页"
       },
       {
-        "pagePath": "pages/storage/storage",
-        "iconPath": "static/tabbar/storage.png",
-        "selectedIconPath": "static/tabbar/storage1.png",
-        "text": "云存储"
+        "pagePath": "pages/tabbar/category",
+        "iconPath": "static/tabbar/tab-cate.png",
+        "selectedIconPath": "static/tabbar/tab-cate-current.png",
+        "text": "分类"
       },
       {
-        "pagePath": "pages/clientDB/clientDB",
-        "iconPath": "static/tabbar/yun.png",
-        "selectedIconPath": "static/tabbar/yun1.png",
-        "text": "clientDB"
+        "pagePath": "pages/tabbar/cart",
+        "iconPath": "static/tabbar/tab-cart.png",
+        "selectedIconPath": "static/tabbar/tab-cart-current.png",
+        "text": "购物车"
       },
       {
-        "pagePath": "pages/schema2code/schema2code",
-        "iconPath": "/static/tabbar/st-code.png",
-        "selectedIconPath": "static/tabbar/st-code1.png",
-        "text": "schema2code"
+        "pagePath": "pages/tabbar/mine",
+        "iconPath": "static/tabbar/tab-user.png",
+        "selectedIconPath": "static/tabbar/tab-user-current.png",
+        "text": "我的"
       }
     ]
   },
