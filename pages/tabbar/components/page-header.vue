@@ -3,8 +3,6 @@
 		<view 
       class="content row"
       :style="{
-        paddingRight: headerPaddingRight + 'px',
-        paddingTop: statusBarHeight + 'px',
         height: navigationBarHeight + statusBarHeight + 'px'
       }"
     >

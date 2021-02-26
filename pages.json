@@ -39,24 +39,6 @@
         "enablePullDownRefresh": false
       }         
     }
-      ,{
-            "path" : "pages/tabbar/components/page-header",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/tabbar/components/banner",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
     ],
   "tabBar": {
     "color": "#7A7E83",

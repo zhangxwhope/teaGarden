@@ -4,6 +4,8 @@
       class="swiper"
       circular
       autoplay
+      previous-margin="50rpx"
+      next-margin="50rpx"
       @change="onSwiperChange"
     >
       <swiper-item class="item" v-for="(item, index) in list" :key="index">
