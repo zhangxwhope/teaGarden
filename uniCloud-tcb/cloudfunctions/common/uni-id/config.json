@@ -3,5 +3,14 @@
 	"tokenSecret": "tokenSecret-demo",
 	"tokenExpiresIn": 2592000,
 	"passwordErrorLimit": 6,
-	"passwordErrorRetryTime": 3600
+	"passwordErrorRetryTime": 3600,
+  "mp-weixin": {
+          "tokenExpiresIn": 259200,
+          "oauth": {
+              "weixin": {
+                  "appid": "wxd404e5c2f175620d",
+                  "appsecret": "036da3b8f52e38b492daaf2d390ba511"
+              }
+          }
+      }
 }

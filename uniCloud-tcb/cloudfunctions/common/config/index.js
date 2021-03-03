@@ -13,8 +13,8 @@ module.exports = {
 	 * pfx: fs.readFileSync(__dirname + '/cert/你的证书.p12')
 	 */
 	wxConfigMp: {
-		appId: '',
-		secret: '',
+		appId: 'wxd404e5c2f175620d',
+		secret: '036da3b8f52e38b492daaf2d390ba511',
 		mchId: '',
 		key: ''
 	},
